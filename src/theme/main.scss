@@ -1,0 +1,39 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --white: #ffffff;
+  --cream: #f2eae2;
+  --dark-cyan: #3c8067;
+  --very-dark-blue: #1c232b;
+  --dark-grayish-blue: #6b7189;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+  src: url('../assets/fonts/Montserrat/Montserrat-Medium.ttf')
+    format('truetype');
+  src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('../assets/fonts/Fraunces/Fraunces.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Montserrat', sans-serif;
+}
