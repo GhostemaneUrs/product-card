@@ -33,7 +33,7 @@ const Card = props => {
                       <p className='text-lg leading-6'>{item?.description}</p>
                     </div>
                     <div className='flex items-start mb-9 gap-9'>
-                      <span className='text-dark-cyan font-bold font-[Fraunces] text-5xl'>
+                      <span className='text-dark-cyan font-bold font-[Fraunces] text-4xl'>
                         {item?.price}
                       </span>
                       <span className='text-base line-through'>
