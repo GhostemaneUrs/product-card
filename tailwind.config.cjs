@@ -8,6 +8,14 @@ module.exports = {
         'very-dark-blue': '#1c232b',
         'dark-grayish-blue': '#6b7189',
       },
+      letterSpacing: {
+        5: '5px',
+      },
+      backgroundImage: {
+        'product-desktop':
+          "url('./src/assets/images/image-product-desktop.jpg')",
+        'product-mobile': "url('./src/assets/images/image-product-mobile.jpg')",
+      },
     },
   },
   plugins: [],
