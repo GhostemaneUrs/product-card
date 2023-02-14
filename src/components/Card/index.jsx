@@ -3,7 +3,6 @@ import { imgNoExist } from '../../helpers/imgNoExist'
 
 const Card = props => {
   const { data } = props
-  console.log(data?.length)
   return (
     <Fragment>
       {data?.length === 1 ? (
@@ -59,7 +58,9 @@ const Card = props => {
         </Fragment>
       ) : (
         <div className='text-center'>
-          <span className='text-4xl lg:text-6xl'>You can only present one product</span>
+          <span className='text-4xl lg:text-6xl'>
+            You can only present one product
+          </span>
         </div>
       )}
     </Fragment>
